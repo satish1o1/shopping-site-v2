@@ -1,0 +1,11 @@
+.sign-up-form{
+   display: flex;
+   flex-direction: column;
+   width: 380px;
+
+   .buttons-container{
+      display: flex;
+      justify-content: space-between;
+      
+   }
+}
