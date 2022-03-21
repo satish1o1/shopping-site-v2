@@ -26,7 +26,8 @@ const SignUpForm = () => {
         email,
         password
       );
-      await createUserProfile(user, { displayName });
+       await createUserProfile(user, { displayName });
+       setFields(defaultFormFields)
     } catch (error) {
       if (error.code == "auth/email-already-in-use") {
         alert("email already exitst");
