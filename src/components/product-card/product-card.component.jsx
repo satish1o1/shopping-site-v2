@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
    const { addItemToCart } = useContext(CartContext)
    return (
       <div className='product-card-container'>
-      <img src={imageUrl} />
+      <img src={imageUrl} alt = "img"/>
       <div className='footer'>
          <span className='name'>{name}</span>
          <span className='price'>{price}</span>
